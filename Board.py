@@ -1,7 +1,7 @@
 class Board:
-    Spaces =    [[True, True, True, True, True, True, True],
-                [True, True, True, True, True, True, True],
-                [True, True, True, True, True, True, True],
+    Spaces =    [[True, True, True, True],
+                [True, True, True, True, True],
+                [True, True, True, True, True, True],
                 [True, True, True, True, True, True, True]]
 
     def ValidateMove(self, Row, NumberOfPieces):
